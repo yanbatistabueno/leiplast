@@ -1,0 +1,60 @@
+.options-container {
+  background-color: rgb(214, 48, 42);
+  display: flex;
+  flex-direction: column;
+  align-items: justify;
+  color: white;
+  padding: 15px;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+select {
+  width: 90%;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.option-path {
+  transform: scale(80%);
+}
+
+.estado-info {
+  display: grid;
+  gap: 10px;
+  margin-bottom: 20px;
+  align-items: baseline;
+  opacity: 0;
+  position: absolute;
+}
+
+.estado-info h2 {
+  font-size: 18px;
+}
+
+.options-container button {
+  padding: 10px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s, background-color 0.3s, color 0.3s;
+  width: 100%;
+}
+
+.options-container button:hover {
+  transform: scale(0.9);
+  background-color: white;
+  color: rgb(214, 48, 42);
+}
+
+@media (min-width: 1027px) {
+  .estado-info {
+    display: flex;
+  }
+  .options-container button {
+    width: 200px;
+  }
+}

@@ -1,0 +1,275 @@
+:root {
+  --fs-400: ;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+section {
+  background-color: rgb(214, 48, 42);
+  padding: 10px;
+  display: grid;
+  justify-content: space-around;
+  place-items: center;
+}
+
+section p {
+  font-size: 13px;
+  color: white;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon {
+  width: 15px;
+  height: 15px;
+}
+
+header {
+  box-shadow: 0px -6px 8px rgba(0, 0, 0, 0.2);
+  display: grid;
+  place-items: center;
+  gap: 20px;
+  z-index: 9999;
+}
+
+.logo {
+  padding-top: 10px;
+  width: 200px;
+}
+
+.nav-header {
+  display: grid;
+  position: absolute;
+  top: 45%;
+  list-style-type: none;
+  list-style: none;
+  width: 100%;
+  transform: translateY(-10%);
+  transition: transform 0.25s ease-in-out, opacity 0.15s, visibility 0.15s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.nav-header[data-visible="true"] {
+  position: static;
+  transform: translateY(0%);
+  opacity: 1;
+  visibility: visible;
+}
+
+.header-button {
+  background-color: transparent;
+  border: none;
+  text-align: left;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 500;
+  width: 100%;
+}
+.header-button:hover {
+  background-color: rgb(214, 48, 42, 1);
+  color: white;
+}
+
+.mobile-toggle {
+  aspect-ratio: 1;
+  display: block;
+  width: 2rem;
+  color: transparent;
+  border: none;
+  background-image: url("src/hamburger_button_menu_icon_155296.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-radius: 2px;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+.mobile-toggle[area-expanded="true"] {
+  background-image: url("src/img_143166.png");
+  background-size: 60%;
+  background-position: center;
+}
+
+.search-container {
+  display: flex;
+  padding: 0px 20px;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.search-icon {
+  max-width: 15px;
+  height: 15px;
+}
+
+.search-input {
+  border: none;
+  padding: 10px 0px;
+  background-color: transparent;
+}
+
+.button-orçamento {
+  padding: 15px;
+  border: none;
+  background-color: rgb(214, 48, 42, 1);
+  color: white;
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  font-weight: bold;
+  width: 100%;
+}
+
+.produto-wrapper {
+  display: grid;
+  align-items: center;
+  position: relative;
+}
+
+.produto-list {
+  list-style: none;
+  padding: 0px;
+  position: static;
+  cursor: pointer;
+  display: none;
+}
+
+.produto-list a {
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  text-align: left;
+}
+
+.produto-list[data-visible="true"] {
+  display: block;
+}
+
+.produto-list li {
+  padding: 10px 30px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  width: 100%;
+}
+
+.produto-list li:hover {
+  color: white;
+  background-color: rgb(214, 48, 42, 1);
+}
+
+@media (min-width: 1027px) {
+  .produto-list {
+    position: absolute;
+    left: -10px;
+    top: 50px;
+    background-color: white;
+  }
+  section {
+    display: flex;
+    justify-content: space-around;
+  }
+  .icon {
+    width: 20px;
+    height: 20px;
+  }
+  .mobile-toggle {
+    display: none;
+  }
+  .logo {
+    width: 140px;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  .logo:hover {
+    transform: scale(1.15);
+  }
+  header {
+    display: flex;
+    padding: 20px 20px;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    height: 150.127px;
+  }
+  .nav-header {
+    opacity: 1;
+    transform: translateY(0%);
+    display: flex;
+    justify-content: space-between;
+    visibility: visible;
+    position: static;
+  }
+  .search-input {
+    max-width: 100px;
+  }
+  .search-container {
+    margin-bottom: 0px;
+    gap: 10px;
+  }
+  .header-button {
+    font-size: 14px;
+    transition: color 0.35s;
+    position: relative;
+  }
+  .header-button:hover {
+    background-color: transparent;
+    color: rgb(214, 48, 42, 1);
+  }
+
+  .header-button::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: rgb(214, 48, 42, 1);
+    position: absolute;
+    top: -55px;
+    left: 0px;
+    right: 0px;
+    opacity: 0;
+    transition: opacity 0.15s;
+  }
+  .header-button:hover::before {
+    opacity: 1;
+  }
+
+  .button-orçamento {
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.4);
+    font-size: 12px;
+
+    transition: box-shadow 0.15s;
+  }
+  .button-orçamento:hover {
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.4);
+  }
+}
+
+@media (max-width: 400px) {
+  section p {
+    font-size: 9px;
+  }
+  .icon {
+    width: 10px;
+    height: 10px;
+  }
+  .icon-container {
+    gap: 5px;
+  }
+}

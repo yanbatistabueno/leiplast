@@ -1,0 +1,33 @@
+{
+  "ativos": [
+    {
+      "estado": "São Paulo",
+      "empresas": [
+        {
+          "cidade": "Americana - SP",
+          "Empresa": "Asllan Aplicações Especiais",
+          "Contato": "Daniel Biagio",
+          "Email": "daniel@asllan.com.br",
+          "Endereço": "Rua João Santarosa, 254A | São Luiz - Americana/SP",
+          "Telefone": "55 19 3601 2647 | 55 19 97817 9157"
+        },
+        {
+          "cidade": "São José dos Campos - SP",
+          "Empresa": "Comercial Mundo do Som LTDA",
+          "Contato": "Edson",
+          "Email": "fiscal@comercialms.com.br",
+          "Endereço": "Rua Romualdo Davoli, 190 | Eldorado - São José dos Campos/SP",
+          "Telefone": "55 12 3903 5026 - 3966 4429 | 55 12 3212 3811"
+        },
+        {
+          "cidade": "Ferraz de Vasconcelos - SP",
+          "Empresa": "NTV Distribuidora de Som e Acessorios",
+          "Contato": "Flavio",
+          "Email": "distribuidorantv@hotmail.com",
+          "Endereço": "Rua David de Rogatis, 178 | Parque Dourado/SP",
+          "Telefone": "55 11 2805 6486 | 55 11 94723 4089"
+        }
+      ]
+    }
+  ]
+}

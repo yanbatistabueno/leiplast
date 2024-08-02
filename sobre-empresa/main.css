@@ -1,0 +1,36 @@
+main {
+  padding: 15px;
+  display: grid;
+  gap: 20px;
+  text-align: justify;
+  position: relative;
+}
+
+main::before {
+  content: "";
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  /*background-image: url("/src/background/07102008556.jpg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-blend-mode: lighten;
+  z-index: -100;
+  opacity: 0.2;
+  */
+}
+
+main h1 {
+  color: rgba(214, 48, 42);
+  font-weight: bold;
+}
+
+@media (min-width: 1027px) {
+  main {
+    padding: 30px;
+    text-align: left;
+  }
+}

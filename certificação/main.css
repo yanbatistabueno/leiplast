@@ -1,0 +1,21 @@
+main {
+  padding: 30px;
+  display: grid;
+  gap: 10px;
+  text-align: justify;
+}
+
+main h1 {
+  color: rgba(214, 48, 42);
+}
+
+article {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.italiano {
+  font-style: italic;
+}

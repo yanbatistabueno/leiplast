@@ -1,0 +1,52 @@
+{
+  "ativos": [
+    {
+      "estado": "São Paulo",
+      "empresa": "GINN COM E REPRES DE AUT PCS",
+      "contato": "Marques",
+      "email": "ginn@ginn.com.br | ivanilde.augusto@ginn.com.br",
+      "endereço": "RUA DR JAIME BRICIO FILHO 270, PIRITUBA",
+      "telefone": "11 3977.7343 | FAX: 11 94739.1104"
+    },
+    {
+      "estado": "Paraná",
+      "empresa": "GAMA ASSESSORIA COMERCIAL LTDA",
+      "contato": "Fabrício e Jeane",
+      "email": "gama.vendas@terra.com.br",
+      "endereço": "RUA BENJAMIN CONSTANT 1715 SALA 101, LONDRINA",
+      "telefone": "43 3324-3626 | CEL: 43 9112-1070"
+    },
+    {
+      "estado": "Mato Grosso do Sul",
+      "empresa": "OLIVEIRA & SILVA REPRESENTAÇÕES LTDA ME",
+      "contato": "Valdines e Ana",
+      "email": "valdines@terra.com.br",
+      "endereço": "RUA PELOURINHO, 384",
+      "telefone": "67 3042.1337 | 67 3042.3864"
+    },
+    {
+      "estado": "Goiás",
+      "empresa": "VELOSTAR ACESS AUTOMOTIVA LTDA",
+      "contato": "Elcerlan e Deny",
+      "email": "velostar@uol.com.br",
+      "endereço": "AVENIDA BOULEVARD CONDE DOS ARCOS, 251 SALA 02",
+      "telefone": "62 39427025 | 39547021 | 30917921"
+    },
+    {
+      "estado": "Rio de Janeiro",
+      "empresa": "DAFLON REPRESENTAÇÕES",
+      "contato": "Carlos Alberto",
+      "email": "dafloncouto@gmail.com",
+      "endereço": "RUA CAPITÃO MACAHADO , 74 APTO 405 - JACAREPAGUÁ",
+      "telefone": "21 96991.8981 | 21 96491.3708 | 21 98598.2195"
+    },
+    {
+      "estado": "Bahia",
+      "empresa": "IJ – REPRESENTAÇÕES LTDA ME",
+      "contato": "Ivan Lucena",
+      "email": "ivan.lucena@hotmail.com",
+      "endereço": "AV. ALTAMIRANDO DE ARAUJO RAMOS, 421 – SL 07 E 08",
+      "telefone": "71 9743.2585 | 71 9263.2583"
+    }
+  ]
+}

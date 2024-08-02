@@ -1,0 +1,143 @@
+{
+  "produtos": [
+    {
+      "nome": "Espaguete Corrugado",
+      "aplicação": "Ideal para a cablagem de chicotes elétricos empregados em setores como Indústria Automotiva, Naval, Bélica, Informática e muito mais.",
+      "propriedade": "Fabricado em Polipropileno (PP) retardante à chama ou 100% anti-chamas. Com ou sem cortes longitudinais. <br> Fabricados a partir de Ø4,5mm até Ø50mm. Com comprimentos de 20, 25, 50 ou 100m.",
+      "cor": "Padrão preta ou sob consulta.",
+      "desc": "Corrugados para Linha Automotiva, de PP preto, nas metragens 20, 50 ou 100m.",
+      "hasPdf": "yes",
+      "images": 3
+    },
+    {
+      "nome": "Tubo Isolante de PVC",
+      "aplicação": "Indicado para revestimento protetor de chicotes elétricos em ambientes com temperaturas de até 70°C",
+      "propriedade": "Os espaguetes são fabricados com PVC virgem, garantindo a ausência de metais pesados. Além disso, são atóxicos e possuem alta resistência contra ação de fungos, bactérias, insetos, roedores e a maioria dos agentes químicos. Esses espaguetes destacam-se como excelentes isolantes térmicos, elétricos e acústicos, proporcionando um desempenho superior nesses aspectos. Além disso, eles apresentam solidez e resistência excepcionais a choques, garantindo sua durabilidade e confiabilidade em diversas aplicações. <br> Fabricados com diâmetro Interno de Ø1,00mm até Ø30,00mm <br>  Espessuras a partir de 0,20 até 2,00mm <br> Dureza: 80 ± 2 Shore A 15s <br> Comprimentos de 25, 50 e 100m",
+      "cor": "Preta, Colorida e Transparente (Cristal)",
+      "desc": "Tubos Isolantes de PVC, várias cores, disponíveis nas metragens 25, 50, 100 ou 200m.",
+      "hasPdf": "yes",
+      "images": 2
+    },
+    {
+      "nome": "Fita de PVC sem Cola",
+      "aplicação": "A Fita de PVC Leiplast é uma escolha excelente para proporcionar acabamento e proteção a instalações diversas. Com uma superfície autoadesiva sem uso de cola, é perfeita para organizar cabos de áudio, chicotes e outros dispositivos, incluindo cabos de computador e telefonia. Devido à ausência de adesivo, a fita não gruda nos fios, podendo ser facilmente retirada e reutilizada quando necessário. Com sua praticidade, a fita de PVC é uma solução versátil para diversos usos.",
+      "propriedade": "Fabricadas em PVC virgem, garantindo a ausência de metais pesados. Além disso, são atóxicos e possuem alta resistência contra ação de fungos, bactérias, insetos, roedores e a maioria dos agentes químicos. Indicada para utilizar em ambientes de até 70°C, fabricadas em rolos de 30m ou 50m. Largura de 18mm e Espessura de 0,20mm. ",
+      "cor": "Padrão preta ou sob consulta.",
+      "desc": "Fitas de PVC sem cola, disponíveis nas metragens de 30 ou 50m.",
+      "images": 3
+    },
+    {
+      "nome": "Tubo Termo Retrátil",
+      "aplicação": "Ao selecionar um Espaguete isolante Tubo Termo Retrátil, a temperatura de trabalho é um fator crucial a ser considerado. Dependendo da aplicação, seja em terminais telefônicos com temperatura ambiente ou em fios e terminais automotivos sujeitos a temperaturas mais elevadas, é necessário escolher o espaguete isolante adequado. Para aplicações em temperaturas comuns, um espaguete isolante tubo termo retrátil convencional, sem aditivos de temperatura, é a escolha adequada. Por outro lado, para fios e terminais de motores automotivos, é necessário optar por um espaguete isolante tubo termo retrátil com aditivos que ofereçam resistência a altas temperaturas, retardante de chamas e capacidade de suportar solventes e óleos.",
+      "propriedade": "Os Espaguetes Termo Retráteis, fabricados em Poliolefina, oferecem durabilidade adicional, resistência ao calor e outras propriedades técnicas. Seu design é cuidadosamente elaborado para proporcionar um encaixe perfeito que não se solta com o tempo ou o uso, garantindo uma vedação confiável e duradoura. <br>Fornecidos com diâmetros a partir de 1,6mm até 50mm.",
+      "cor": "Preta, Amarela, Azul, Verde, Roxa, Vermelha, Branca e Transparente",
+      "desc": "Termo Retratil de Poliolefina, várias cores, fornecidos em boninas fechadas ou caixinhas com metro. Disponível também na opção Adesivado.",
+      "hasPdf": "yes",
+      "images": 2
+    },
+    {
+      "nome": "Tubo De Poliuretano",
+      "aplicação": "Isolamento de cabos especiais com temperaturas extremas. Flexibilidade excepcional mesmo em condições de baixa temperatura, estabilidade térmica notável, raio de curvatura excepcionalmente amplo, manuseio e montagem fáceis, resistência excepcional ao desgaste, boa resistência à hidrólise, resistência mecânica elevada, excelente resistência à flexão, baixo peso específico e boa capacidade de resistência à compressão.",
+      "propriedade": "Faixa de temperatura operacional: -30°C a +60°C. Aplicado em sistemas pneumáticos e hidráulicos de baixa pressão, automação robótica, painéis de distribuição, dosadores, equipamentos esportivos, indústria automotiva e ferramentas.",
+      "cor": "Natural, preto, azul e vermelho.",
+      "desc": "Tubos de Poliuretano, disponíveis em várias cores e metragens sob consulta.",
+      "images": 2
+    },
+    {
+      "nome": "Perfil T e U",
+      "aplicação": "Perfil em forma de T: Utilizado para conectar superfícies em geral. <br> Perfil em forma de U: Empregado para proteger arestas vivas e ferramentas cortantes. <br> Os perfis de PVC são produtos versáteis que encontram aplicações em móveis, veículos, equipamentos de refrigeração, eletroeletrônica, produtos para construção civil, entre outros.",
+      "propriedade": "Fabricados com PVC flexível, eles oferecem boa resistência térmica, química e a impactos. Optar por esses perfis pode trazer excelentes vantagens custo-benefício para o seu projeto.",
+      "cor": "Preto ou sob consulta.",
+      "desc": "Perfís fabricados em PVC, com 100m de comprimento com várias medidas sob consulta.",
+      "images": 5
+    },
+    {
+      "nome": "Espaguete Cigarro de Palha",
+      "aplicação": "São fabricados com PVC de alta qualidade, especialmente dimensionados para acomodar argolinhas, gominhas, anilhas ou canudinhos utilizados em cigarros de palha.",
+      "propriedade": "Os espaguetes são fabricados com PVC virgem, garantindo a ausência de metais pesados. Além disso, são atóxicos e possuem alta resistência contra ação de fungos, bactérias, insetos, roedores e a maioria dos agentes químicos. Esses espaguetes destacam-se como excelentes isolantes térmicos, elétricos e acústicos, proporcionando um desempenho superior nesses aspectos. Além disso, eles apresentam solidez e resistência excepcionais a choques, garantindo sua durabilidade e confiabilidade em diversas aplicações.<br> Disponíveis em diâmetros internos de Ø4, Ø5 e Ø6,00mm, com espessuras de parede customizáveis. <br> Apresentam uma dureza de 80 ± 2 Shore A (15s) e estão disponíveis em comprimentos de 25m, 50m e 100m.",
+      "cor": "Todas as cores disponíveis.",
+      "desc": "Tubos de PVC, disponíveis em várias cores, utilizados para confecção de Argolinhas e Anilhas para cigarros de palha",
+      "images": 3
+    },
+    {
+      "nome": "Mangueira de Narguilé",
+      "aplicação": "A Mangueira de Narguilé apresenta alta flexibilidade, sendo fabricada em Polietileno virgem, o que permite seu uso por várias pessoas sem a necessidade de reposicionar o próprio narguilé. Essas mangueiras são altamente resistentes a altas temperaturas, mantendo sua flexibilidade e durabilidade. Além disso, elas possuem resistência aos efeitos do clima e outras condições adversas.",
+      "propriedade": "Fabricados com Polietileno de baixa densidade (PEBD), apresentando uma combinação singular de propriedades. Esses incluem tenacidade, resistência ao impacto, alta flexibilidade, notáveis propriedades elétricas e estabilidade. Essa sinergia de características torna as mangueiras de PEBD, uma escolha excepcional para diversas aplicações, oferecendo desempenho confiável e duradouro.<br> A Mangueira de Narguilé, amplamente popular, especialmente entre o público jovem, é oferecida em uma variedade de tamanhos e cores, permitindo-nos atender às demandas do mercado de maneira eficiente.",
+      "cor": "Todas as cores disponíveis.",
+      "desc": "Fabricados em matéria prima virgem, ideal para aquecimento sem prejudicar a sua saúde. Material muito resistente, leve e fácil de lavar, ideal para qualquer tipo de nargulilé.",
+      "images": 4
+    },
+    {
+      "nome": "Tubo Liso",
+      "aplicação": "As Traqueias, Tubos e Mangueiras são componentes importantes que desempenham um papel fundamental na conexão de CPAPs, BIPAPs e ventiladores mecânicos às máscaras usadas pelos usuários. Além disso, elas também são utilizadas na Hidrocolonterapia, trazendo segurança e conforto aos pacientes.",
+      "propriedade": "Fabricadas em PVC com ótima flexibilidade e transparência, sem adição de metais pesados, totalmente atóxicas e com Dureza SH A 78 ±2 e Densidade 1,26 ±2.",
+      "cor": "Cristal translúcido.",
+      "desc": "Traqueias, tubos e mangueiras são componentes cruciais para conectar equipamentos médicos a máscaras, como CPAPs e ventiladores. Também são usadas na Hidrocolonterapia, oferecendo segurança aos pacientes. Feitas de PVC flexível, transparente e atóxico, com Dureza SH A 78 ±2 e Densidade 1,26 ±2.",
+      "images": 4
+    },
+    {
+      "nome": "Tubo Corrugado",
+      "aplicação": "As Traqueias, Tubos e Mangueiras são componentes importantes que desempenham um papel fundamental na conexão de CPAPs, BIPAPs e ventiladores mecânicos às máscaras usadas pelos usuários. Além disso, elas também são utilizadas na Hidrocolonterapia, trazendo segurança e conforto aos pacientes.",
+      "propriedade": "Fabricadas em PEBD com ótima flexibilidade, sem adição de metais pesados, totalmente atóxicas, atendendo aos requisitos definidos na alicação de itens hospitalares e com Fluidez 0,63 a 0,78 e Densidade 0,919cm³ a 0,923cm³.",
+      "cor": "Branco leitoso.",
+      "desc": "Traqueias, Tubos e Mangueiras são componentes cruciais para conectar equipamentos médicos a máscaras, como CPAPs e ventiladores. Também são usadas na Hidrocolonterapia, oferecendo segurança aos pacientes. Feitas de PEBD flexível, branco leitoso e atóxico.",
+      "images": 5
+    },
+    {
+      "nome": "Canudo Liso e Corrugado",
+      "aplicação": "Fabricados com material totalmente atóxico e seguro, qualquer cor e medida, ideal para festas e brindes.",
+      "propriedade": "Fabricamos canudos de PVC e PP, projetados para serem laváveis e reutilizáveis, contribuindo para a redução do impacto ambiental.",
+      "cor": "Todas as cores disponíveis.",
+      "desc": "Canudos de PVC e PEBD totalmente atóxico e seguro para o consumo alimentício.",
+      "images": 3
+    },
+    {
+      "nome": "Perfil de PU",
+      "aplicação": "Este produto multifuncional é usado para unir faces de metais, realizar acabamentos, proteger partes cortantes e equipar esteiras de Aeroporto. Sua versatilidade o torna indispensável em diversos setores. Além de promover a adesão entre metais, ele proporciona um acabamento refinado, evita cortes acidentais e garante o funcionamento seguro das esteiras. Sua ampla aplicação o torna uma solução eficaz para diferentes necessidades e exigências.",
+      "propriedade": "Esse produto possui resistência superior à abrasão, solventes e produtos químicos, além de boa elasticidade. É uma escolha ideal para aplicações que exigem durabilidade, proteção contra desgaste e flexibilidade.",
+      "cor": "Todas as cores disponíveis.",
+      "desc": "O Perfil de PU une metais, protege partes cortantes, faz acabamentos e equipa esteiras de Aeroportos. ",
+      "images": 5
+    },
+    {
+      "nome": "Raspador de PU",
+      "aplicação": "Este produto multifuncional é usado para unir faces de metais, realizar acabamentos, proteger partes cortantes e equipar esteiras de Mineração. Sua versatilidade o torna indispensável em diversos setores. Além de promover a adesão entre metais, ele proporciona um acabamento refinado, evita cortes acidentais e garante o funcionamento seguro das esteiras. Sua ampla aplicação o torna uma solução eficaz para diferentes necessidades e exigências.",
+      "propriedade": "Esse produto possui resistência superior à abrasão, solventes e produtos químicos, além de boa elasticidade. É uma escolha ideal para aplicações que exigem durabilidade, proteção contra desgaste e flexibilidade.",
+      "cor": "Todas as cores disponíveis.",
+      "desc": "O Raspador de PU une metais, protege partes cortantes, faz acabamentos e equipa esteiras de Mineração",
+      "images": 5
+    },
+    {
+      "nome": "Fita de PU",
+      "aplicação": "A Fita de Poliuretano (PU) é empregada na esteira de segregação de produtos farmacêuticos e alimentícios.",
+      "propriedade": "Esse produto possui resistência superior à abrasão, solventes e produtos químicos, além de boa elasticidade. É uma escolha ideal para aplicações que exigem durabilidade, proteção contra desgaste e flexibilidade.",
+      "cor": "Todas as cores disponíveis.",
+      "desc": "A fita de PU é altamente resistente a abrasão, solventes e produtos químicos. Sua elasticidade e flexibilidade a tornam ideal para aplicações que exigem durabilidade e proteção contra desgaste. É utilizada na segregação de produtos farmacêuticos e alimentícios.",
+      "images": 2
+    },
+    {
+      "nome": "Espaguete de Cadeiras",
+      "aplicação": "O Espaguete para Cadeiras é uma das opções mais abrangentes disponíveis tanto no mercado artesanal quanto no industrial. Apesar de seu nome sugerir um uso específico relacionado a cadeiras, sua versatilidade transcende essa função específica. Na verdade, o espaguete para cadeiras é extremamente útil em diversas situações cotidianas.",
+      "propriedade": "Nossos Espaguetes são feitos de PVC virgem, sem metais pesados, para garantir a segurança. Eles são atóxicos e altamente resistentes, proporcionando confiabilidade em diversas aplicações. Esses espaguetes são ótimos para decorar e animar seu ambiente, permitindo que você use sua imaginação e escolha a cor que combina com sua cadeira. <br> Com diâmetros internos de 1mm e espessuras de parede personalizáveis, esses espaguetes são sólidos e altamente resistentes a impactos, garantindo sua durabilidade. Eles têm uma dureza de 80 ± 2 Shore A (15s) e podem ser adquiridos em rolos de 25m, 50m e 100m.",
+      "cor": "Todas as cores disponíveis.",
+      "desc": "Cuidadosamente fabricados com PVC virgem de alta qualidade, garantindo a excelência e aprimorando a qualidade do seu produto. ",
+      "images": 5
+    },
+    {
+      "nome": "Tubos para Brinquedos",
+      "aplicação": "Apresentamos uma coleção de brinquedos sensoriais cuidadosamente concebidos, utilizando matérias-primas virgens e não tóxicas. Esses brinquedos são perfeitamente adequados para proporcionar diversão às crianças, ao mesmo tempo em que oferecem um ambiente educativo enriquecedor. Com cores vibrantes e um design intuitivo, eles são extremamente fáceis de manusear, proporcionando uma experiência cativante e envolvente.",
+      "propriedade": "Nossos produtos são meticulosamente fabricados com Polietileno e PVC, garantindo sua segurança e atoxidade, tornando-os perfeitamente adequados para uso infantil, sem apresentar qualquer risco para as crianças.",
+      "cor": "Todas as cores disponíveis.",
+      "desc": "Nossos produtos são fabricados utilizando apenas matérias-primas de alta qualidade, totalmente atóxicas e livres de metais pesados. Isso garante a segurança e a tranquilidade ao utilizar nossos produtos.",
+      "images": 5
+    },
+    {
+      "nome": "Veia Maciça",
+      "aplicação": "As Veias maciças fabricadas em PVC completamente virgem, são especialmente recomendados como extensores de carga, sendo igualmente adequados para uso em cordões, vedação, gaxetas, perfis, cordas e outras aplicações similares.<br> <u>*Produto não acompanha acessórios*</u> ",
+      "propriedade": "Totalmente atóxicos, possuem alta resistência contra ação de fungos, bactérias, insetos, roedores e a maioria dos agentes químicos. Esses Tubos, denominados Veias Maciças, destacam-se por apresentar solidez e resistência excepcionais a choques, garantindo sua durabilidade e confiabilidade em diversas aplicações. Fabricados com diâmetro a partir de Ø1,00mm <br> Espessuras sob consulta <br> Dureza: 80 ± 2 Shore A 15s <br> Classe térmica: 70°C ou 105°C <br> Comprimentos a partir de 25m",
+      "cor": "Todas as cores disponíveis.",
+      "desc": "Nossos produtos são fabricados utilizando apenas matérias-primas de alta qualidade, totalmente atóxicas e livres de metais pesados. Isso garante a segurança e a tranquilidade ao utilizar nossos produtos.",
+      "images": 5
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+main {
+  padding: 15px;
+  display: grid;
+  gap: 20px;
+  text-align: left;
+}
+
+main h1 {
+  color: rgba(214, 48, 42);
+}
+
+@media (min-width: 1027px) {
+  main {
+    padding: 30px;
+    text-align: left;
+  }
+}
