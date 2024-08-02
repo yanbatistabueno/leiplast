@@ -59,21 +59,25 @@ try {
     $get_current_datetime_hour = mb_strcut($currentTime, 0, 2);
 
     if($get_current_datetime_minutes + 5 >= 60){
-        //Se for 08:56
-
+        //Só vai acontecer se os minutos forem maior que 55
+        //Ultimo 09:45
+        //Tentei 09:56
+        //Não posso mandar até 09:50
+        //--------------
+        //Ultimo 09:56
+        //Tentei 09:57
+        //Não posso mandar até 08:02
         $ideal_minutes = 60 - $get_last_datetime_minutes;
         $ideal_hour = $get_last_datetime_hour + 1;
-        //08:46
-        //08:56
-        if($get_current_datetime_hour == $get_last_datetime && $get_last_datetime_minutes <= 55){
+        if($get_current_datetime_hour == $get_last_datetime_hour && $get_last_datetime_minutes <= 55){
             $can_send_email = true;
-        }
-        if($get_current_datetime_hour != $get_last_datetime_hour && $get_current_datetime_minutes < $ideal_minutes){
+        }else if($get_current_datetime_hour != $get_current_datetime_hour && $get_current_datetime_minutes >= $ideal_minutes){
+            $can_send_email = true;
+        }else if($get_current_datetime_hour && $get_last_datetime_minutes >= 55){
             $can_send_email = false;
-        }else if($get_current_datetime_hour != $get_last_datetime_hour && $get_current_datetime_minutes >= $ideal_minutes){
-            $can_send_email = true;
+        }else if($get_current_datetime_hour != $get_current_datetime_hour && $get_current_datetime_minutes < $ideal_minutes){
+            $can_send_email = false;
         }
-        
     }else if($get_current_datetime_minutes + 5 < 60){
         $ideal_minutes = $get_last_datetime_minutes + 5;
         $ideal_hour = $get_last_datetime_hour;
@@ -159,17 +163,8 @@ try {
         //     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
         // }
     }else{
-        echo "
-    <div>
-        <b>Para prevenir o envio de mensagens indesejadas, solicitamos que aguarde aproximadamente 5 minutos antes de enviar outro e-mail. Se o assunto for urgente, por favor, entre em contato conosco pelos seguintes meios:</b>
-        <ul>
-            <li>- Telefone: (11) 3756-5096 / (11) 2026-1228</li>
-            <li>- Celular: (11) 96837-6176</li>
-            <li>- E-mail: comercial@leiplast.com.br</li>
-        </ul>
-        <p>Agradecemos sua compreensão e colaboração.</p>
-        <p>Atenciosamente, Leiplast.</p>
-    </div>";
+        header("Location: enviado-falha.php");
+        exit;
     }
     
 } catch (PDOException $e) {

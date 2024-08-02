@@ -34,6 +34,8 @@ let estadoList = [
   "Tocantins (TO)",
 ];
 
+console.log("ue");
+
 let estadoContainer = document.querySelector("#estados");
 console.log(estadoContainer);
 
@@ -104,8 +106,28 @@ function validação() {
     inputs[1].classList.remove("input-error");
     inputs[1].classList.add("input-success");
   }
-
-  //if (listError.length > 7) listError.length = 7;
+  if (inputs[0].value.length >= 255) {
+    listError.push("nome grande demais");
+    inputs[0].classList.add("input-error");
+    inputs[0].classList.remove("input-success");
+    errorType[0].innerHTML = "Nome grande demais";
+    inputs[0].value = "";
+  } else if (inputs[0].value.length > 1 && inputs[0].value.length < 255) {
+    listError.pop;
+    inputs[0].classList.remove("input-error");
+    inputs[0].classList.add("input-success");
+  }
+  if (inputs[1].value.length >= 255) {
+    listError.push("nome grande demais");
+    inputs[1].classList.add("input-error");
+    inputs[1].classList.remove("input-success");
+    errorType[1].innerHTML = "Nome grande demais";
+    inputs[1].value = "";
+  } else if (inputs[1].value.length > 1 && inputs[1].value.length < 255) {
+    listError.pop;
+    inputs[1].classList.remove("input-error");
+    inputs[1].classList.add("input-success");
+  }
 
   if (listError.length == 0) {
     return true;
