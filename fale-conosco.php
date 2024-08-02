@@ -27,7 +27,7 @@
 
   </head>
   <body>
-    <!-- </?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/"; include($IPATH."header.php"); ?> -->
+    <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/"; include($IPATH."header.php"); ?>
     <figure>
         <h1>CONTATO</h1>
     </figure>
@@ -94,7 +94,7 @@
    
     
 
-    <!-- </?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/"; include($IPATH."footer.html"); ?> -->
+    <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/"; include($IPATH."footer.html"); ?>
     <script src="/fale-conosco/summary.js"></script>
   </body>
 </html>
