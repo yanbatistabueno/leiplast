@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -80,14 +79,6 @@
         <div class="input-container">
         <textarea name="mensagem" class="input" oninput="typing(this)" placeholder="Mensagem" name="mensagem" id="mensagem" cols="30" rows="5"></textarea>
         <p class="error-type"></p>
-        <!-- <button class="g-recaptcha"
-        data-sitekey="6LdkvRoqAAAAACPtvdNZhJ6eKhyOyAK5KANepz2d"
-        data-callback='onSubmit'
-        data-action='submit'>
-        Submit
-      </button> -->
-      <div name="g_captcha" class="g-recaptcha" data-sitekey="6LdmihsqAAAAAFLy2r44h9SgsrntConOXa6OEAuN"></div>
-      </div>
       
       <button type="submit">Enviar Formulário</button>
     </form>
