@@ -34,8 +34,6 @@ let estadoList = [
   "Tocantins (TO)",
 ];
 
-console.log("ue");
-
 let estadoContainer = document.querySelector("#estados");
 console.log(estadoContainer);
 
@@ -69,6 +67,7 @@ function validação() {
       element.classList.add("input-success");
       errorType[index].innerHTML = "";
     }
+    console.log(element.value);
   });
   if (!telefone_validation(inputs[2].value)) {
     listError.push("telefone invalido");

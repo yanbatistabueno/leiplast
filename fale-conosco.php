@@ -66,25 +66,18 @@
       </div>
       <div class="input-container">
         <select name="estados" onchange="typing(this)" id="estados" class="input" name="" id="">
-          <option id="vazio" value="a" disabled selected hidden>
+          <option id="vazio" disabled selected hidden>
               Selecione o Estado:
           </option>
-          <option value="b">
-              aaaa
-          </option>
-
         </select>
         <p class="error-type"></p>
       </div>
         <div class="input-container">
-        <textarea name="mensagem" class="input" oninput="typing(this)" placeholder="Mensagem" name="mensagem" id="mensagem" cols="30" rows="5"></textarea>
-        <p class="error-type"></p>
-      
+          <textarea name="mensagem" class="input" oninput="typing(this)" placeholder="Mensagem" name="mensagem" id="mensagem" cols="30" rows="5"></textarea>
+          <p class="error-type"></p>
+        </div>
       <button type="submit">Enviar Formulário</button>
     </form>
-   
-    
-
     <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/"; include($IPATH."footer.html"); ?>
     <script src="/fale-conosco/summary.js"></script>
   </body>

@@ -7,19 +7,22 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
+$first_user_ip = "";
 $user_ip = "";
-
 if(!empty($_SERVER['HTTP_CLIENT_IP'])) {   
-    $user_ip = $_SERVER['HTTP_CLIENT_IP'];   
+    $first_user_ip = $_SERVER['HTTP_CLIENT_IP'];   
 }   
 //if user is from the proxy   
 elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {   
-    $user_ip = $_SERVER['HTTP_X_FORWARDED_FOR'];   
+    $first_user_ip = $_SERVER['HTTP_X_FORWARDED_FOR'];   
 }   
 //if user is from the remote address   
 else{   
-    $user_ip = $_SERVER['REMOTE_ADDR'];   
-}  
+    $first_user_ip = $_SERVER['REMOTE_ADDR'];   
+} 
+
+$user_ip = mb_strcut($first_user_ip,0, 11);
+echo $user_ip;
 
 $name = $_POST["nome"];
 $email = $_POST["email"];
